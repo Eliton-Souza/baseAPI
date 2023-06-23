@@ -4,6 +4,6 @@ import * as ApiController from '../controllers/apiController';
 
 const router = Router();
 
-router.get('/ping', ApiController.ping);
+router.get('/', ApiController.ping);
 
 export default router;
